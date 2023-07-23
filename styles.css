@@ -3,21 +3,33 @@
 /* Project: Bootstrap B&B */
 
 
+.container {
+    padding-top: 50px;
+}
+
 .container-fluid{
     padding: 0px;
 }
 
 .navbar {
-    padding: 20px 10px;
+    padding: 20px;
 }
 
-.card {
+.card-title, .card-text {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.card-body {
     background-color: rgb(255, 247, 236);
     background-image: url(images/GetawayB&B-panel.png);
     background-position: bottom;
     background-repeat: no-repeat;
     border: 5px solid rgb(205, 196, 185);
     box-shadow: 2px 2px 5px grey;
+}
+
+.card-ammenities {
+    background-size: cover;
 }
 
 .btn {
@@ -37,4 +49,10 @@ footer {
     background-color: grey;
     color: white;
     text-align: center;
+    font-size: 1.5rem;
 }
+
+footer p {
+    margin-bottom: .5rem;
+}
+
