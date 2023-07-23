@@ -19,13 +19,17 @@
     text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
-.card-body {
+
+.card {
     background-color: rgb(255, 247, 236);
+    border: 5px solid rgb(205, 196, 185);
+    box-shadow: 2px 2px 5px grey;
+}
+
+.card-body {
     background-image: url(images/GetawayB&B-panel.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    border: 5px solid rgb(205, 196, 185);
-    box-shadow: 2px 2px 5px grey;
 }
 
 .card-ammenities {
